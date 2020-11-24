@@ -31,3 +31,5 @@ jobs:
         languages: python
         setup-python-dependencies: false
         queries: security-extended,security-and-quality
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v1
