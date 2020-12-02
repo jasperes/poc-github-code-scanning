@@ -1,6 +1,6 @@
 # CWISEC - GitHub Code Scanning
 
-Realizei uma POC para testar a nova funcionalidade do GitHub de Code Scanning, o qual analizva o código fonte e alertava sobre possíveis falhas e erros no código.
+Realizei uma POC para testar a nova funcionalidade do GitHub de Code Scanning, o qual analiza o código fonte e alerta sobre possíveis falhas e erros no código.
 
 Nos meus testes consegui ver a ferramenta em funcionamento, mas ela não processou conforme esperado. No fim, não foi possível validar se ela seria util para um projeto real.
 
@@ -68,9 +68,7 @@ Nisto entrei na tentativa e erro. Testei colocar arquivos no root e mandar rodar
 
 Neste pegou apenas falha de importação não utilizada. Fiz a correção e ele colocou o alerta para "resolvidos".
 
-Por fim, criei um novo repositório, pegando todo o código quebrado de varios testes e joguei em apenas um arquivo, tudo na raiz do projeto.
-
-Fiz vários testes, començando pelo basico e fazendo alterações.
+Por fim, criei um novo repositório, pegando todo o código quebrado de varios testes e joguei em apenas um arquivo, tudo na raiz do projeto. Não pegou nenhuma falha.
 
 **Projetos criados**
 
